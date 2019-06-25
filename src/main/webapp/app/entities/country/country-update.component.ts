@@ -39,7 +39,7 @@ export class CountryUpdateComponent implements OnInit {
       this.updateForm(country);
     });
     this.regionService
-      .query({ filter: 'country-is-null' })
+      .query({ 'countryId.specified': 'false' })
       .pipe(
         filter((mayBeOk: HttpResponse<IRegion[]>) => mayBeOk.ok),
         map((response: HttpResponse<IRegion[]>) => response.body)

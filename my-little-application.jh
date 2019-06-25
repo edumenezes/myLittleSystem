@@ -112,3 +112,4 @@ service all with serviceImpl except Employee, Job
 
 // Set an angular suffix
 // angularSuffix * with mySuffix
+filter Country

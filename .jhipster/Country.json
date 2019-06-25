@@ -16,12 +16,12 @@
             "ownerSide": true
         }
     ],
-    "changelogDate": "20190625193714",
+    "changelogDate": "20190625204844",
     "entityTableName": "country",
     "dto": "no",
     "pagination": "no",
     "service": "serviceImpl",
-    "jpaMetamodelFiltering": false,
+    "jpaMetamodelFiltering": true,
     "fluentMethods": true,
     "clientRootFolder": "",
     "applications": "*"
