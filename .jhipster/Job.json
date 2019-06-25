@@ -30,7 +30,7 @@
             "ownerSide": true
         }
     ],
-    "changelogDate": "20190625193719",
+    "changelogDate": "20190625204849",
     "entityTableName": "job",
     "dto": "no",
     "pagination": "pagination",
